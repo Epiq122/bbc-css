@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+span {
+  text-transform: uppercase;
+}
+/* Nav */
+
+nav {
+  padding-top: 20px;
+  width: 100%;
+  background: black;
+}
+
+nav a {
+  color: white;
+  padding-left: 5px;
+}
+
+nav ul {
+  display: inline-flex;
+}
+
+nav ul li {
+  height: 30px;
+  padding-left: 3px;
+  border-left: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* align-content: flex-end; */
+  margin-right: 20px;
+}
+
+nav ul .sign-in {
+  padding-right: 60px;
+}
+
+.logo {
+  border-left: none;
+
+  padding-left: 0;
+}
+
+.more {
+  padding-right: 60px;
+}
+
+.search {
+  padding-left: 10px;
+}
+
+/* top header */
+
+.top {
+  width: 100%;
+  display: inline-block;
+}
+
+.top h2 {
+  float: left;
+  padding-left: 44px;
+  padding-bottom: 30px;
+}
+
+.top span {
+  font-size: 20px;
+  padding-right: 44px;
+  padding-top: 26px;
+  float: right;
+  padding-bottom: 30px;
+}
+
+.main {
+  overflow: hidden;
+  padding-left: 44px;
+  position: absolute;
+  width: 100%;
+}
+
+.left {
+  /* position: absolute; */
+  padding-left: 10px;
+  width: 50%;
+  height: 309px;
+  background-image: url(../images/two-guys.webp);
+  background-repeat: no-repeat;
+  background-size: 620px 310px;
+}
+
+.left h2 {
+  position: absolute;
+  bottom: 70px;
+
+  font-size: 30px;
+  color: white;
+}
+
+.left p {
+  position: absolute;
+  bottom: 20px;
+  width: 40%;
+  font-size: 18px;
+  color: white;
+}
+
+.left span {
+  text-transform: uppercase;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 5px;
+  width: 40%;
+  font-size: 18px;
+  color: white;
+}
+
+/* right section */
+
+.right {
+  width: 50%;
+  height: 25%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.right-top {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 600px;
+}
+.right-bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 600px;
+}
+
+.canada,
+.health,
+.worklife,
+.culture {
+  margin-top: 20px;
+  width: 65%;
+}
+
+.canada {
+  width: 620px;
+  margin-right: 20px;
+  background-image: url(../images/flags.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.health {
+  width: 620px;
+  margin-right: 25px;
+  background-image: url(../images/vaccine.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.worklife {
+  width: 620px;
+  margin-left: 20px;
+  background-image: url(../images/girl-computer.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.culture {
+  width: 620px;
+  margin-left: 25px;
+  background-image: url(../images/singer.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bottom section */
+
+.bottom-section {
+  margin-left: 40px;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.biden,
+.women,
+.trump {
+  float: left;
+  width: 33.333%;
+}
+
+.bottom-section p {
+  width: 85%;
+}
